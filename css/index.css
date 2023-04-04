@@ -20,6 +20,7 @@ section {
 .fa-bars {
     color: aliceblue;
     font-size: 1.5rem;
+    margin-right: 20px;
 }
 .garden-container {
     margin: 0 auto;
@@ -33,6 +34,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 2px 2px 2px rgb(66, 1, 1);
 }
 .logo a {
     text-decoration: none;
