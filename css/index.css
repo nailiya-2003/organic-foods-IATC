@@ -55,7 +55,7 @@ header{
    background-color: rgb(255, 158, 197);
    background-size: cover;
    padding: 100px 60px;
-   box-shadow: 10px 0px 15px 10px rgb(66, 1, 1);
+   box-shadow: 5px 0px 10px 5px rgb(66, 1, 1);
 }
 .organic_descr h2{
     font-size: 4em;
@@ -80,7 +80,7 @@ header{
     width: 60%;
     height: 40em;
     object-fit: cover;
-    box-shadow: 10px 0px 15px 10px rgb(66, 1, 1);
+    box-shadow: 5px 0px 10px 5px rgb(66, 1, 1);
 }
 .organic_items {
     min-height: 20rem;
