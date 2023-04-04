@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Open Sans',sans-serif;
+    box-sizing: border-box;
+}
+section {
+    width: 100%;
+    padding: 10px 50px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(125,46,68);
+}
+.fa-bars {
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+.garden-container {
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    min-height: 50px;
+    border-bottom: 3px solid rgb(66, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a {
+    text-decoration: none;
+    color: rgb(208, 208, 208);
+    font-size: 1.9rem;
+}
+.organic_garden{
+    min-width: 50%;
+    min-height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+.organic_descr {
+    width: 60%;
+    min-height: 40em;
+   background-color: rgb(255, 158, 197);
+   background-size: cover;
+   padding: 100px 60px;
+}
+.organic_descr h2{
+    font-size: 4em;
+    color: rgb(81, 0, 43);
+}
+.organic_descr .descr {
+    margin-top: 2.7rem;
+    font-size: 1.3em;
+    line-height: 25px;
+    color: rgb(58, 1, 25);
+    font-style: italic;
+}
+.learn_more {
+    display: inline-block;
+    margin-top: 4rem;
+    font-size: 1em;
+    background-color: brown;
+    padding: 15px 25px;
+    color: aliceblue;
+}
+.organic_garden img {
+    width: 60%;
+    height: 40em;
+    object-fit: cover;
+}
+.organic_items {
+    min-height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(190, 191, 193);
+}
+.item {
+    padding: 30px;
+}
+.descr1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.title {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+.round {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #b6a7a7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
