@@ -50,8 +50,8 @@ header{
     padding: 50px 0;
 }
 .organic_descr {
-    width: 60%;
-    min-height: 40em;
+   width: 60%;
+   min-height: 40em;
    background-color: rgb(255, 158, 197);
    background-size: cover;
    padding: 100px 60px;
@@ -111,4 +111,70 @@ header{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+}
+@media(max-width:990px)  {
+    .organic_garden{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 30px 0px;
+        gap: 1.5rem;
+    }
+    section {
+        width: 100%;
+        padding: 30px 10px;
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgb(125,46,68);
+    }
+    .organic_items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .organic_descr h2{
+        font-size: 2.5em;
+        color: rgb(81, 0, 43);
+    }
+    .organic_descr .descr {
+        margin-top: 2.3rem;
+        font-size: 1em;
+        line-height: 25px;
+        color: rgb(58, 1, 25);
+        font-style: italic;
+    }
+    .organic_descr {
+        width: 100%;
+        padding: 50px 50px;
+        min-height: 20em;
+    }
+    .organic_garden img {
+        width: 100%;
+        height: 20em;
+        object-fit: cover;
+        box-shadow: 5px 0px 10px 5px rgb(66, 1, 1);
+    }
+    .organic_items {
+        min-height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(190, 191, 193);
+    }
+    .item {
+        padding: 20px;
+    }
+    .descr1 {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .title {
+        text-align: center;
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        font-weight: 700;
+    }
+
 }
